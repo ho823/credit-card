@@ -1,0 +1,29 @@
+.header {
+  width: fit-content;
+}
+.bg {
+  width: -webkit-fill-available;
+}
+.bgDesktop {
+  display: none;
+}
+.cardFront {
+  position: absolute;
+  top: 5%;
+  width: 75%;
+  left: 15%;   
+}
+
+@media (min-width: 1024px) {
+  .bg {
+    display: none;
+  }
+  .cardFront {
+    width: 25%;
+  }
+
+  .bgDesktop {
+    display: block;
+  }
+
+ }

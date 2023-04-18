@@ -1,0 +1,28 @@
+.container {
+  width: -webkit-fill-available;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+   
+}
+
+.logoCb {
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 7px;
+  width: 15%;
+}
+
+.cardBack {
+  z-index: 0;
+  position: absolute;
+  width: 75%;
+  left: 3%;   
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 25%;
+  }
+ }
